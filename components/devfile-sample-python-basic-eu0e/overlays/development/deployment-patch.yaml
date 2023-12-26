@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-eu0e
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/beaumorley-tenant/devfile-sample-python-basic-2/devfile-sample-python-basic-eu0e@sha256:ffd3547fae5a8c99c2a3cd5206e4d5c7fb4a29cd73c53b7b4e724a7eb3282b23
+        name: container-image
+        resources: {}
+status: {}
